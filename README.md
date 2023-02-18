@@ -9,4 +9,4 @@
   
   As for the music commands, you will need to have a Lavalink server running. Download the Lavalink.jar [here](https://github.com/freyacodes/Lavalink/releases) (Note that you'll need at least Java 13 to run a Lavalink server) and copy the application.yml file present [here](https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example) and paste everything in the same folder your code is in. After you've downloaded everything, you can simply run the Lavalink server with the command ```java --jar Lavalink.jar```
   
-  Now that everything is set up, you can run your Shikinha Bot! just run ```python Shikinha.py``` and have fun!
+  Now that everything is set up, you can run your Shikinha Bot! Just run ```python Shikinha.py``` and have fun!
