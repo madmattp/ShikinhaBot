@@ -1,5 +1,5 @@
-disc_token = "Discord API token"
-openai_token = "OpenAI API token"
+disc_token = "paste your Discord API token here!"
+openai_token = "paste your OpenAI API token here!"
 
 # Lavalink HOST and PASSWORD
 host = 'localhost'
