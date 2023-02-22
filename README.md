@@ -48,13 +48,13 @@ and paste the key into the "secret.py" file too ("openai_token" variable).
   * resume
   	* Resumes the song that is currently playing;
  
- ### IA Commands (OpenAI):
+ ### IA (OpenAI):
   * gpt [prompt]:
   	* Interacts with GTP-3 (davinci) with the provided prompt [prompt]; 
   * dalle [prompt]:
   	* Generates a 1024x1024 image using DALL-E; 
 
-### NSFW Commands:
+### NSFW:
  * e621 [tags]:
  	* Searches for a random post on E621 with the tags [tags]; 
  * rule34 [tags]:
