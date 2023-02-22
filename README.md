@@ -1,6 +1,7 @@
 # ShikinhaBot
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-energy-drinks.svg)](https://forthebadge.com)
+
 # What is the ShikinhaBot?
 
   Shikinha is a multipurpose discord bot  made in Python 3 (discord.py=2.0.1), with it's core features being the integration with the OpenAI's API
@@ -24,7 +25,7 @@ and paste the key into the "secret.py" file too ("openai_token" variable).
   - help: Displays a help message;
   - clear <n°>: Clears <n°> messages from chat (requires "manage messages" permissions);
   - ping: Shows latency;
-  - wiki <search>
+  - wiki <something>
   - random_wiki
   - gpt <prompt>
   - dalle <prompt>
