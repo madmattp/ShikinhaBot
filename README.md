@@ -1,6 +1,6 @@
 # What is the ShikinhaBot?
 
-  Shikinha is a multipurpose discord bot made in Python 3 (discord.py=2.0.1), with it's core features being the integration with the OpenAI's API (allowing access to DALL-E and GPT-3 models), the capability to play music (Youtube) using Lavalink and many other features. 
+  Shikinha is a multipurpose discord bot made in Python 3 (discord.py=2.0.1), with it's core features being the integration with the OpenAI's API (allowing access to DALL-E and GPT-3 models via commands), the capability to play music (Youtube) using Lavalink and many other features. 
 
 # Setting up...
 
