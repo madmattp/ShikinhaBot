@@ -133,7 +133,7 @@ async def wiki(ctx, *, pesquisa):
     except:
         await ctx.send("Algo deu errado.\nSeu parâmetro não existe ou é muito 'vago'")
 
-@client.command(aliases=["rw"]) # NSFW
+@client.command(aliases=["rw"])
 async def random_wiki(ctx):
     await ctx.send("Um segundinho...")
     sugest = random(pages=1)
@@ -157,7 +157,7 @@ async def e6(ctx, *, tags):
 
     await ctx.send(embed=embed)
 
-@client.command(aliases=["rule34", "r3"]) 
+@client.command(aliases=["rule34", "r3"])  # NSFW
 async def r34(ctx, *, tags):
     tags = tags.split()
 
