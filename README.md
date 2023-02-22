@@ -11,7 +11,7 @@
 
 ## Setting up...
 
-  First of all, you'll need a Discord API token, wich you can get at the [Discord developer portal](https://discord.com/developers/applications) by creating a nwe application and generating a new token. After you get the token, just paste it into the "disc_token" variable present in the "secret.py" file.
+  First of all, you'll need a Discord API token, wich you can get at the [Discord developer portal](https://discord.com/developers/applications) by creating a new application and generating a new token. After you get the token, just paste it into the "disc_token" variable present in the "secret.py" file.
 
   For the GPT and and DALL-E commands to work, you will need to get an API key for OpenAI's API, wich you can get here: https://platform.openai.com/overview
 and paste the key into the "secret.py" file too ("openai_token" variable).
