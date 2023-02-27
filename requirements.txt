@@ -1,0 +1,7 @@
+discord
+wikipedia
+asyncio
+e621
+rule34Py
+openai
+wavelink
