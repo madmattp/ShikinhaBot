@@ -18,7 +18,7 @@ and paste the key into the "secret.py" file too ("openai_token" variable).
   
   As for the music commands, you will need to have a Lavalink server running. Download the Lavalink.jar [here](https://github.com/freyacodes/Lavalink/releases) (Note that you'll need at least Java 13 to run a Lavalink server) and copy the application.yml file present [here](https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example) and paste everything into the same folder your code is in. After you've downloaded everything, you can simply run the Lavalink server with the command ```java --jar Lavalink.jar```
   
-  Before you run the bot, make sure you've installed all the libs present in the "requirements.txt" file whit the command ```pip install -r requirements.txt```
+  Before you run the bot, make sure you've installed all the libs present in the "requirements.txt" file with the command ```pip install -r requirements.txt```
   Now that everything is set up, you can run your Shikinha Bot! Just run ```python Shikinha.py``` and have fun!
 
 ## Commands
