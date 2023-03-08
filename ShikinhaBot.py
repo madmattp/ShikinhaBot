@@ -90,7 +90,7 @@ async def help(ctx):
     embed.add_field(name="wiki <pesquisa>", value="● Retorna sumário da página da wikipédia sobre <pesquisa>.", inline=False)
     embed.add_field(name="random_wiki", value="● Retorna sumário de uma página aleatória da wikipedia.", inline=False)
     embed.add_field(name="ping", value="● Retorna a latência em milissegundos.", inline=False)
-    embed.add_field(name="gpt <prompt>", value="● Interage com GPT-3 da OpenAI", inline=False)
+    embed.add_field(name="gpt <prompt>", value="● Interage com ChatGPT da OpenAI", inline=False)
     embed.add_field(name="dalle <prompt>", value="● Gera uma imagem baseada no prompt <prompt> usando a DALL-E da OpenAI", inline=False)
     embed.add_field(name="rule34 <tags>   (NSFW)", value="● Pesquisa um post aleatório no Rule34 que possua as tags <tags>.", inline=False)
     embed.add_field(name="e621 <tags>     (NSFW)", value="● Pesquisa um post aleatório no E621 que possua as tags <tags>.", inline=False)
