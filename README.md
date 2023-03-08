@@ -51,7 +51,7 @@ and paste the key into the "secret.py" file too ("openai_token" variable).
  
  ### IA (OpenAI):
   * gpt [prompt]:
-  	* Interacts with GTP-3 (davinci) with the provided prompt [prompt]; 
+  	* Interacts with ChatGPT with the provided prompt [prompt]; 
   * dalle [prompt]:
   	* Generates a 1024x1024 image using DALL-E; 
 
