@@ -192,22 +192,29 @@ async def dalle(ctx, *, prompt):
     except Exception as e:
         await ctx.reply(f'{e}')
 
-@client.command(aliases=["gpt-3", "chat"])   # OpenAI GPT-3
+@client.command(aliases=["gpt-3", "chat", "chatgpt"])   # OpenAI ChatGPT
 async def gpt(ctx, *, prompt):
     try:
-        response = openai.Completion.create(
-            model="text-davinci-003",
-            prompt=prompt,
+        completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": f"{prompt}"}],
             temperature=0.9,
-            max_tokens=2048,
+            max_tokens=1024,
             top_p=1,
             frequency_penalty=1,
             presence_penalty=1, 
         )
-        text = response["choices"][0]["text"]
-        await ctx.reply(str(text))
+        text = completion.choices[0].message["content"]
+        if len(text) <= 2000:  
+            await ctx.reply(str(text))
+        else:   # If the message is too long, it will split the output in two parts and send them individually
+            met = int(len(text) / 2)
+            met1 = met + 1
+            await ctx.reply(str(text[0:met]))
+            await ctx.send(str(text[met1:len(text)]))
     except Exception as e:
         await ctx.reply(str(e))
+
 
 ###### MUSIC STUFF #######
 
