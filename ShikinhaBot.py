@@ -10,7 +10,7 @@ from e621 import E621
 from rule34Py import rule34Py
 import openai
 import wavelink
-import secret  # API keys and other important stuff
+import secret  # API keys and the Lavalink server credentials
 
 tok = secret.disc_token # Discord API token
 
@@ -19,7 +19,7 @@ intents.message_content = True
 client = commands.Bot(command_prefix=";", intents=intents)
 client.remove_command('help')
 
-openai.api_key = secret.openai_token  # OpenAi API (DALL-E e GPT-3)
+openai.api_key = secret.openai_token  # OpenAi API (DALL-E e ChatGPT)
 
 set_lang("pt") # Wikipedia API
 
