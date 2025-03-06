@@ -197,7 +197,7 @@ async def leave(ctx):
 
         await ctx.voice_client.disconnect()
     else:
-        await ctx.send("O bot não está em um canal de voz.")
+        await ctx.reply("O bot não está em um canal de voz.")
 
 @client.command(aliases=['s', 'pular'])
 async def skip(ctx):
