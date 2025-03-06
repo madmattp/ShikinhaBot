@@ -4,7 +4,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 
-## What is the Shikinha?
+## What is Shikinha?
 
 Shikinha is a simple Discord music bot, built using Python.
   
