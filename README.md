@@ -12,7 +12,7 @@ The default prefix for the bot is ```;```
 
 ## Setting up...
 
-First, you'll need a Discord API token, which you can get from the [Discord developer portal](https://discord.com/developers/applications). Create a new application and generate a token. After obtaining the token, paste it into the ```disc_token variable``` in the ```config.toml``` file.
+First, you'll need a Discord API token, which you can get from the [Discord developer portal](https://discord.com/developers/applications). Create a new application and generate a token. After obtaining the token, paste it into the ```disc_token``` variable in the ```config.toml``` file.
 
 With that done, you can set up the bot in two ways: Local or via Docker. Choose the method that suits you best.
 
